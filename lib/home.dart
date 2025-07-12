@@ -17,25 +17,8 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.black,
-        foregroundColor: Colors.white,
-        title: Text("WhatsApp"),
 
-        actions: [
-          Icon(Icons.qr_code_scanner),
-          SizedBox(width: 20),
-          Icon(Icons.camera_alt),
-          SizedBox(width: 10),
-          Icon(Icons.more_vert),
-        ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: Icon(Icons.chat),
-        backgroundColor: Colors.green,
-        foregroundColor: Colors.black,
-      ),
+
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: index,
         onTap: (value) {
@@ -44,7 +27,7 @@ class _HomeState extends State<Home> {
           });
         },
         selectedItemColor: Colors.green,
-        unselectedItemColor:Colors.black,
+        unselectedItemColor:Colors.black,showUnselectedLabels: true,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.chat), label: "chats"),
           BottomNavigationBarItem(icon: Icon(Icons.update), label: "update"),

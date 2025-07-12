@@ -4,6 +4,18 @@ class Commu extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(backgroundColor:Colors.blueGrey,);
+    return  Scaffold(appBar: AppBar(
+      backgroundColor: Colors.black,
+      foregroundColor: Colors.white,
+      title: Text("WhatsApp"),
+
+      actions: [
+        Icon(Icons.qr_code_scanner),
+        SizedBox(width: 20),
+        Icon(Icons.camera_alt),
+        SizedBox(width: 10),
+        Icon(Icons.more_vert),
+      ],
+    ),);
   }
 }
