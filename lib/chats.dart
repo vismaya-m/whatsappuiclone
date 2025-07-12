@@ -86,7 +86,7 @@ class Chats extends StatelessWidget {
             ),
             title: Text("Shinchan<3"),
             subtitle: Text("Hello"),
-            trailing: Text("9:00pm"),
+            trailing: Text("12:51am"),
           ),
           ListTile(
             leading: CircleAvatar(
@@ -98,6 +98,15 @@ class Chats extends StatelessWidget {
             subtitle: Text("wdym?"),
             trailing: Text("12:40am"),
           ),
+    ListTile(
+    leading: CircleAvatar(
+    backgroundImage: NetworkImage(
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY810Qs34swa4YMefmnvng9dZGif2iIQoY9w&s",
+    ),
+    ),
+    title: Text("Huh"),
+    subtitle: Text("ikr!!!"),
+    trailing: Text("10:01pm"),),
           ListTile(
             leading: CircleAvatar(
               backgroundImage: NetworkImage(
@@ -106,7 +115,7 @@ class Chats extends StatelessWidget {
             ),
             title: Text("rubyyyychan"),
             subtitle: Text("idk!"),
-            trailing: Text("12:04am"),
+            trailing: Text("9:04am"),
           ),
         ],
       ),

@@ -61,7 +61,7 @@ class Calls extends StatelessWidget {
               ),
             ),
             title: Text("<3"),
-            subtitle: Text("Today,12:41am"),trailing: Icon(Icons.call),
+            subtitle: Text("Today,12:41am"),trailing: Icon(Icons.missed_video_call),
 
           ),
           ListTile(
@@ -71,7 +71,17 @@ class Calls extends StatelessWidget {
               ),
             ),
             title: Text("rubyyyychan"),
-            subtitle: Text("Today,1:22am"),trailing: Icon(Icons.call),
+            subtitle: Text("Today,1:22am"),trailing: Icon(Icons.call_missed),
+
+          ),
+          ListTile(
+            leading: CircleAvatar(
+              backgroundImage: NetworkImage(
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY810Qs34swa4YMefmnvng9dZGif2iIQoY9w&s",
+              ),
+            ),
+            title: Text("Huh"),
+            subtitle: Text("Yesterday,1:22pm"),trailing: Icon(Icons.call),
 
           ),
         ],
